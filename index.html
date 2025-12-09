@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="src/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <script src="src/scripts/app.js" defer></script>
+</head>
+<body>
+  <!-- ===== MAIN COMPONENT ===== -->
+  <div class="rating" aria-label="Rating form">
+
+    <!-- ----- RATING FORM ----- -->
+    <form class="rating__form" aria-describedby="rating-desc">
+      
+      <!-- icon section -->
+      <div class="rating__icon-wrapper">
+        <img src="src/assets/images/icon-star.svg" alt="Illustrative icon" class="rating__icon">
+      </div>
+
+      <h1 class="rating__title">How did we do?</h1>
+      <p id="rating-desc" class="rating__description" aria-hidden="false">
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+      </p>
+
+      <!-- rating inputs -->
+      <ul class="rating__scale" aria-label="Rate us from 1 to 5">
+        <li class="rating__scale-item">
+          <input type="radio" name="rating" class="rating__scale-input" id="rate1" value="1" required aria-label="Rate 1 out of 5">
+          <label for="rate1" class="rating__scale-label">1</label>
+        </li>
+
+        <li class="rating__scale-item">
+          <input type="radio" name="rating" class="rating__scale-input" id="rate2" value="2" required aria-label="Rate 2 out of 5">
+          <label for="rate2" class="rating__scale-label">2</label>
+        </li>
+
+        <li class="rating__scale-item">
+          <input type="radio" name="rating" class="rating__scale-input" id="rate3" value="3" required aria-label="Rate 3 out of 5">
+          <label for="rate3" class="rating__scale-label">3</label>
+        </li>
+
+        <li class="rating__scale-item">
+          <input type="radio" name="rating" class="rating__scale-input" id="rate4" value="4" required aria-label="Rate 4 out of 5">
+          <label for="rate4" class="rating__scale-label">4</label>
+        </li>
+
+        <li class="rating__scale-item">
+          <input type="radio" name="rating" class="rating__scale-input" id="rate5" value="5" required aria-label="Rate 5 out of 5">
+          <label for="rate5" class="rating__scale-label">5</label>
+        </li>
+      </ul>
+
+      <!-- submit action -->
+      <button class="rating__submit" type="submit">Submit</button>
+    </form>
+    
+    <!-- ----- THANK YOU RESULT SECTION ----- -->
+    <div class="rating__result" aria-label="Rating result" aria-hidden="true" hidden>
+
+      <!-- result image -->
+      <div class="rating__result-img-wrapper">
+        <img src="src/assets/images/illustration-thank-you.svg" alt="Illustrative image" class="rating__result-img">
+      </div>
+      
+      <!-- selected rating -->
+      <p class="rating__result-info">
+        You selected <span class="rating__result-value"></span> out of 5
+      </p>
+      
+      <!-- result content -->
+      <h1 class="rating__result-title">Thank you!</h1>
+      <p class="rating__result-text">
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!
+      </p>
+    </div>
+  </div>
+
+  <!-- ===== ATTRIBUTION SECTION ===== -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/fabio-oliveira-martins" target="_blank">Fábio O. Martins</a>.
+  </div>
+</body>
+</html>
