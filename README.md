@@ -39,7 +39,7 @@ Este projeto foi um desafio fornecido pela plataforma Frontend Mentor que consis
 1º - Copie e cole o link abaixo na barra de pesquisa do seu navegador:
 
 ```
-
+https://fabio-oliveira-martins.github.io/interactive-rating-component-main/
 ```
 
 2º - Usando o mouse, selecione com o botão esquerdo um dos cinco botões numerados dentro do formulário. Quando um deles estiver selecionado, o mesmo ficará da cor branca destacando qual opção foi selecionada.
@@ -53,7 +53,7 @@ Este projeto foi um desafio fornecido pela plataforma Frontend Mentor que consis
 1º - Copie e cole o link abaixo na barra de pesquisa do seu navegador:
 
 ```
-
+https://fabio-oliveira-martins.github.io/interactive-rating-component-main/
 ```
 
 2º - Usando o teclado, pressione a tecla TAB para selecionar o primeiro botão que contém a nota 1, ao redor do botão aparecerá um circulo indicando que o mesmo está selecionado.
